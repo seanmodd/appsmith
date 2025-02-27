@@ -1,0 +1,35 @@
+{
+  "gitSyncId": "67bfc5090c282b62732d011f_abb6e68f-050e-48c6-8e27-17fcd2c9ea22",
+  "id": "Page1_Insert_packages1",
+  "pluginId": "mysql-plugin",
+  "pluginType": "DB",
+  "unpublishedAction": {
+    "actionConfiguration": {
+      "body": "INSERT INTO packages (send_name,send_cat_id,pack_size_id,pack_options_id,pack_weight,pet_type,pet_count,pet_is_vac,item_value,desc_text,pack_from_lat,pack_from_lng,pack_from_text,pack_to_lat,pack_to_lng,pack_to_text,distance,distance_time,taken_time,taken_type,taken_asap,taken_bring_type,delivery_time,delivery_type,delivery_asap,delivery_take_type,receiver_name,receiver_phone_number,leave_by_door,pack_price,pack_price_with_ins,pack_price_without_ins,pack_refund_amount,insurance_price,insurance_owner_price,is_insurance_payed,courier_profit,owner_profit,bank_fee,tax_fee,stripe_payout_fee,insurance_mode,pack_status,pack_owner_id,inserted_by,inserted_date,updated_by,updated_date,accepted_courier_id,sender_paid,courier_paid,stripe_id,last_operation_time,pack_code_guid,pack_sort_id,pack_transport_id,pk_payment_type,sender_name,sender_cell,sender_desc,dn_promo_code_id,sender_paid_real,force_img_ondeliv,lc_company_id,order_type,finish_module,sender_cell_prefix,refund_type,custom_weight,pack_from_apt,pack_to_apt,courier_service_price,custom_height,custom_length,custom_width,service_price,driver_count,helper_count,schedule_date,app_version,discount,toll_price,tip_amount,sms_price,pack_from_state,pack_from_city,pack_from_street,pack_from_zip,pack_from_country,total_price_without_tax,tax_perc,tax_price,total_charge_price) VALUES ('{{(Table1.newRow || {}).send_name}}','{{(Table1.newRow || {}).send_cat_id}}','{{(Table1.newRow || {}).pack_size_id}}','{{(Table1.newRow || {}).pack_options_id}}','{{(Table1.newRow || {}).pack_weight}}','{{(Table1.newRow || {}).pet_type}}','{{(Table1.newRow || {}).pet_count}}','{{(Table1.newRow || {}).pet_is_vac}}','{{(Table1.newRow || {}).item_value}}','{{(Table1.newRow || {}).desc_text}}','{{(Table1.newRow || {}).pack_from_lat}}','{{(Table1.newRow || {}).pack_from_lng}}','{{(Table1.newRow || {}).pack_from_text}}','{{(Table1.newRow || {}).pack_to_lat}}','{{(Table1.newRow || {}).pack_to_lng}}','{{(Table1.newRow || {}).pack_to_text}}','{{(Table1.newRow || {}).distance}}','{{(Table1.newRow || {}).distance_time}}','{{(Table1.newRow || {}).taken_time}}','{{(Table1.newRow || {}).taken_type}}','{{(Table1.newRow || {}).taken_asap}}','{{(Table1.newRow || {}).taken_bring_type}}','{{(Table1.newRow || {}).delivery_time}}','{{(Table1.newRow || {}).delivery_type}}','{{(Table1.newRow || {}).delivery_asap}}','{{(Table1.newRow || {}).delivery_take_type}}','{{(Table1.newRow || {}).receiver_name}}','{{(Table1.newRow || {}).receiver_phone_number}}','{{(Table1.newRow || {}).leave_by_door}}','{{(Table1.newRow || {}).pack_price}}','{{(Table1.newRow || {}).pack_price_with_ins}}','{{(Table1.newRow || {}).pack_price_without_ins}}','{{(Table1.newRow || {}).pack_refund_amount}}','{{(Table1.newRow || {}).insurance_price}}','{{(Table1.newRow || {}).insurance_owner_price}}','{{(Table1.newRow || {}).is_insurance_payed}}','{{(Table1.newRow || {}).courier_profit}}','{{(Table1.newRow || {}).owner_profit}}','{{(Table1.newRow || {}).bank_fee}}','{{(Table1.newRow || {}).tax_fee}}','{{(Table1.newRow || {}).stripe_payout_fee}}','{{(Table1.newRow || {}).insurance_mode}}','{{(Table1.newRow || {}).pack_status}}','{{(Table1.newRow || {}).pack_owner_id}}','{{(Table1.newRow || {}).inserted_by}}','{{(Table1.newRow || {}).inserted_date}}','{{(Table1.newRow || {}).updated_by}}','{{(Table1.newRow || {}).updated_date}}','{{(Table1.newRow || {}).accepted_courier_id}}','{{(Table1.newRow || {}).sender_paid}}','{{(Table1.newRow || {}).courier_paid}}','{{(Table1.newRow || {}).stripe_id}}','{{(Table1.newRow || {}).last_operation_time}}','{{(Table1.newRow || {}).pack_code_guid}}','{{(Table1.newRow || {}).pack_sort_id}}','{{(Table1.newRow || {}).pack_transport_id}}','{{(Table1.newRow || {}).pk_payment_type}}','{{(Table1.newRow || {}).sender_name}}','{{(Table1.newRow || {}).sender_cell}}','{{(Table1.newRow || {}).sender_desc}}','{{(Table1.newRow || {}).dn_promo_code_id}}','{{(Table1.newRow || {}).sender_paid_real}}','{{(Table1.newRow || {}).force_img_ondeliv}}','{{(Table1.newRow || {}).lc_company_id}}','{{(Table1.newRow || {}).order_type}}','{{(Table1.newRow || {}).finish_module}}','{{(Table1.newRow || {}).sender_cell_prefix}}','{{(Table1.newRow || {}).refund_type}}','{{(Table1.newRow || {}).custom_weight}}','{{(Table1.newRow || {}).pack_from_apt}}','{{(Table1.newRow || {}).pack_to_apt}}','{{(Table1.newRow || {}).courier_service_price}}','{{(Table1.newRow || {}).custom_height}}','{{(Table1.newRow || {}).custom_length}}','{{(Table1.newRow || {}).custom_width}}','{{(Table1.newRow || {}).service_price}}','{{(Table1.newRow || {}).driver_count}}','{{(Table1.newRow || {}).helper_count}}','{{(Table1.newRow || {}).schedule_date}}','{{(Table1.newRow || {}).app_version}}','{{(Table1.newRow || {}).discount}}','{{(Table1.newRow || {}).toll_price}}','{{(Table1.newRow || {}).tip_amount}}','{{(Table1.newRow || {}).sms_price}}','{{(Table1.newRow || {}).pack_from_state}}','{{(Table1.newRow || {}).pack_from_city}}','{{(Table1.newRow || {}).pack_from_street}}','{{(Table1.newRow || {}).pack_from_zip}}','{{(Table1.newRow || {}).pack_from_country}}','{{(Table1.newRow || {}).total_price_without_tax}}','{{(Table1.newRow || {}).tax_perc}}','{{(Table1.newRow || {}).tax_price}}','{{(Table1.newRow || {}).total_charge_price}}')",
+      "encodeParamsToggle": true,
+      "paginationType": "NONE",
+      "pluginSpecifiedTemplates": [
+        {
+          "value": false
+        }
+      ],
+      "timeoutInMillisecond": 10000
+    },
+    "confirmBeforeExecute": false,
+    "datasource": {
+      "id": "Senpex",
+      "isAutoGenerated": false,
+      "name": "Senpex",
+      "pluginId": "mysql-plugin"
+    },
+    "dynamicBindingPathList": [
+      {
+        "key": "body"
+      }
+    ],
+    "executeOnLoad": false,
+    "name": "Insert_packages1",
+    "pageId": "Page1",
+    "userSetOnLoad": false
+  }
+}
