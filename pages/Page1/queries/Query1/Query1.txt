@@ -1,0 +1,1 @@
+SELECT * FROM _del3 LIMIT 10;
